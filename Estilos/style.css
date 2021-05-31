@@ -1,0 +1,89 @@
+:root {
+    --color-dark: #083142;
+    --color-light: #ffffff;
+    --color-gold: #c7b8a5;
+    --color-carga: #083142;
+}
+body{
+    font-family: 'Rajdhani', sans-serif;
+    /* font-style: italic; */
+    /* font-weight: 900; */
+    background-color: var(--color-light);
+    color: var(--color-dark);
+    letter-spacing: .05rem;
+}
+.text-light{
+    color: var(--color-light) !important;
+}
+.text-dark{
+    color: var(--color-dark) !important;
+}
+.bg-light{
+    background-color: var(--color-light) !important;
+}
+.bg-dark{
+    background-color: var(--color-dark) !important;
+}
+.bg-carga{
+    background-color: var(--color-carga) !important;
+}
+.lead, .nav-link{
+    font-size: 1.6rem;
+}
+h1, h2, h3{
+    font-weight: 600;
+}
+.btn-primary{
+    background-color: var(--color-dark) ;
+    border: 0;
+    border-radius: 0;
+    font-size: 1.4rem;
+    padding: .5rem 2rem;
+}
+.btn-primary:hover{
+    background-color: var(--color-dark) !important;
+    border: 0;
+    opacity: .9;
+}
+.carousel-indicators{
+    margin: 0;
+    display: block;
+    top: 50%;
+    right: 40px;
+    left: unset;
+    transform: translateY(-50%);
+}
+.carousel-indicators li{
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.slide-number{
+    bottom: 20px;
+    right: 40px;
+}
+.py-6{
+    padding: 3.4rem;
+}
+.text-white-50{
+    color: var(--color-gold) !important;
+}
+@media (min-width: 992px) and (max-width: 1200px){
+    h1{
+        font-size: 2rem;
+    }
+    .lead, .btn-primary{
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 991px){
+    .navbar, .navbar-expand-lg{
+        background-color: var(--color-light) !important;
+    }
+    .navbar{
+        position: sticky;
+    }
+    .hero-content{
+        padding: 4rem 0;
+    }
+}

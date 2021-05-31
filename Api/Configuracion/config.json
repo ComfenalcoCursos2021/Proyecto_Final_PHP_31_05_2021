@@ -1,0 +1,22 @@
+{
+    "file": [
+        {"Content-Type": "application/json"},
+        {"Content-Type": "application/pdf"},
+        {"Content-Type": "image/png"}
+    ],
+    "Messages":{
+        "Clase":"Clase no esncontrada"
+    },
+    "getinst":{
+        "id":"123456789",
+        "Getinst":{
+            "Param_Opcionales" : {
+                "num1": 1,
+                "num2": 2
+            }
+        }
+    },
+    "index":{
+        "id":"123"
+    } 
+}
