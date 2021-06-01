@@ -12,12 +12,9 @@ class Api extends getinst{
                     $permiso = ([$this, 'GetParam'])(get_class(),apache_request_headers()['Time'],func_get_args());
                     if(!empty($permiso)){
                         include "Entidades/paquete_".$permiso->Clase.".php";
-                        // $permiso->Clase::getGetinst()->$permiso->Method(["Hola"=>"bebe"]);
-                        // call_user_func_array([$permiso->Clase."::getGetinst()", $permiso->Method], (["Hola"=>"bebe"]));
-                        // // ([$permiso->Clase."::getGetinst()", ''.$permiso->Method])();
+                        ([$permiso->Clase::getGetinst(), $permiso->Method])(json_decode(file_get_contents("php://input"), true));
                     }
                     
-                    // print_r(file_get_contents("php://input"));
                 }
                 break;
             case 'PATCH':

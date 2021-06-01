@@ -4,11 +4,12 @@
         static $fichero;
         static function Getinst(string $get_class):object{
             self::$fichero = json_decode(file_get_contents('Api/Configuracion/config.json'), true);
-            // self::$Get = new stdClass();
+            self::$Get = new stdClass();
+            self::$Get->{$get_class} = null;
             if(!(self::$Get instanceof self)){
-                self::$Get = new $get_class;
+                self::$Get->{$get_class} = new $get_class;
             }
-            return self::$Get;
+            return  self::$Get->{$get_class};
         }
         protected function GetParam(string $get_class, string $get_function):object{
             $arg = (!empty(func_get_arg(2))) ? (object) func_get_args()[2][0]: new stdClass();
