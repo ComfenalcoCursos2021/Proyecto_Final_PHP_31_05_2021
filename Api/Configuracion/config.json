@@ -7,16 +7,28 @@
     "Messages":{
         "Clase":"Clase no esncontrada"
     },
-    "getinst":{
-        "id":"123456789",
-        "Getinst":{
+    "index":{
+        "Logo":{
             "Param_Opcionales" : {
-                "num1": 1,
-                "num2": 2
+                "Nombre": "Comfenalco",
+                "Apellidos": "Fundacion Universitaria"
             }
         }
     },
-    "index":{
-        "id":"123"
+    "Api":{
+        "METHOD":{
+            "Param_Opcionales" : {
+                "GET": true,
+                "POST": true
+            }
+        },
+        "1622584246":{
+            "Param_Opcionales" : {
+                "id":"$2y$15$nNxtO1wvMNSsk33LedSage2S90KRk4/D5rgP4jRvWzgLpHnYjIiEO",
+                "hash": "GeoFW9eJH0aiE",
+                "Clase": "index",
+                "Method": "Logo"
+            }
+        }
     } 
 }
