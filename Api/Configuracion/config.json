@@ -10,8 +10,32 @@
     "index":{
         "Logo":{
             "Param_Opcionales" : {
-                "Nombre": "Comfenalco",
-                "Apellidos": "Fundacion Universitaria"
+                "Nombre": "Miguel Angel",
+                "Apellidos": "Castro Escamilla"
+            }
+        },
+        "Menu":{
+            "Param_Opcionales" : {
+                "MENU_PC":[
+                    {
+                        "Nombre": "Menu 1",
+                        "Enlace": "https://www.php.net/manual/es/function.json-encode.php"
+                    },
+                    {
+                        "Nombre": "Menu 2",
+                        "Enlace": "https://www.google.com/"
+                    }
+                ],
+                "MENU_MOVIL":[
+                    {
+                        "Nombre": "Menu 1 MOVIL",
+                        "Enlace": "https://www.php.net/manual/es/function.json-encode.php"
+                    },
+                    {
+                        "Nombre": "Menu 2 MOVIL",
+                        "Enlace": "https://www.google.com/"
+                    }
+                ]
             }
         }
     },
@@ -22,12 +46,20 @@
                 "POST": true
             }
         },
-        "1622584246":{
+        "1622663677":{
             "Param_Opcionales" : {
-                "id":"$2y$15$nNxtO1wvMNSsk33LedSage2S90KRk4/D5rgP4jRvWzgLpHnYjIiEO",
-                "hash": "GeoFW9eJH0aiE",
+                "id":"$2y$15$G\/1t3gLrgryqp9WRx\/ZJ3ek0ESMcRDYXKgDdAG1foz3auXUHlyAwK",
+                "hash": "GekaO.mt.QWvM",
                 "Clase": "index",
                 "Method": "Logo"
+            }
+        },
+        "1622666858":{
+            "Param_Opcionales" : {
+                "id":"$2y$15$GWBET1T0gWT4EisnWWjRfuzTDNJs6vQR.5cEmfwBq37YIESDDOIx6",
+                "hash": "Ge5FxMWm\/F6\/w",
+                "Clase": "index",
+                "Method": "Menu"
             }
         }
     } 
