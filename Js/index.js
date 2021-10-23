@@ -20,8 +20,8 @@ $(document).ready(function () {
         type: "GET",
         url: "Api.php",
         headers: {
-            Time: 1622663677,
-            Hash: 'GekaO.mt.QWvM',
+            Time: 1622670297,
+            Hash: 'GemlHhGrM\/1Lk',
             'Content-Type': 'application/json'
         },
         dataType: "json",
@@ -34,8 +34,8 @@ $(document).ready(function () {
         type: "GET",
         url: "Api.php",
         headers: {
-            Time: 1622666858,
-            Hash: 'Ge5FxMWm\/F6\/w',
+            Time: 1622670320,
+            Hash: 'Ge2V\/HXWsgtCA',
             'Content-Type': 'application/json'
         },
         dataType: "json",

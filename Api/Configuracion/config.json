@@ -46,18 +46,18 @@
                 "POST": true
             }
         },
-        "1622663677":{
+        "1622670297":{
             "Param_Opcionales" : {
-                "id":"$2y$15$G\/1t3gLrgryqp9WRx\/ZJ3ek0ESMcRDYXKgDdAG1foz3auXUHlyAwK",
-                "hash": "GekaO.mt.QWvM",
+                "id":"$2y$08$jjpuApqmWSVLmmErHun1t.NQcMa8tsEsf6kabFXAWdxb5hA9qBZqG",
+                "hash": "GemlHhGrM\/1Lk",
                 "Clase": "index",
                 "Method": "Logo"
             }
         },
-        "1622666858":{
+        "1622670320":{
             "Param_Opcionales" : {
-                "id":"$2y$15$GWBET1T0gWT4EisnWWjRfuzTDNJs6vQR.5cEmfwBq37YIESDDOIx6",
-                "hash": "Ge5FxMWm\/F6\/w",
+                "id":"$2y$08$rGMBv7PTWKz\/k0ZSmtZnMOs1Yq96ZEZzyCkqdWYOiD0cyQQ0JMavC",
+                "hash": "Ge2V\/HXWsgtCA",
                 "Clase": "index",
                 "Method": "Menu"
             }

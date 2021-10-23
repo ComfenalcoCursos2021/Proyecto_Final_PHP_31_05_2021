@@ -62,7 +62,7 @@ class Api extends getinst{
             $obj->llave =  (string) crypt($obj->marca, __FUNCTION__);
         }
         $obj->opciones = [
-            'cost' => 15,
+            'cost' => 8,
         ];
         $obj->hash = password_hash($obj->llave, PASSWORD_BCRYPT , $obj->opciones);
         return json_encode($obj,JSON_PRETTY_PRINT);
